@@ -1,14 +1,13 @@
-import codingTest.KAKAO2022TECHINTERNSHIP5;
+import studyStream.StreamAverage;
 
 public class Main {
     public static void main(String[] args) {
 
-        KAKAO2022TECHINTERNSHIP5 test = new KAKAO2022TECHINTERNSHIP5();
+        int[] array = {3,4,6};
 
+        StreamAverage StreamAverage = new StreamAverage();
 
-        int[][] a = 	{{1, 2, 3},{4, 5, 6},{7, 8, 9}};
-        String[] b = {"Rotate", "ShiftRow"};
+        System.out.println(StreamAverage.getAverage(array));
 
-        System.out.print(test.solution(a,b));
     }
 }
